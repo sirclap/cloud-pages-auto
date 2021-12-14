@@ -21,7 +21,7 @@ jobs:
           git config --global user.email "machica@gmail.com"
           git config --global user.name "Miguel"
       - name: Install
-        run: npm install
+        run: npm install --legacy-peer-deps
       - name: Build
         run: npm run build
       - name: Deploy
